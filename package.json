@@ -12,6 +12,7 @@
     "dev:webpack": "webpack --mode development --define-process-env-node-env dev",
     "build:webpack": "webpack --mode production --define-process-env-node-env production",
     "dev": "gulp",
+    "seed": "node config/seed.js",
     "styles": "gulp styles",
     "start": "node server.js"
   },
@@ -26,7 +27,7 @@
     "@babel/plugin-transform-async-to-generator": "^7.22.5",
     "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
-    "autoprefixer": "^10.4.17",
+    "autoprefixer": "^10.4.18",
     "babel-loader": "^9.1.3",
     "bootstrap": "^4.6.2",
     "browser-sync": "^3.0.2",
@@ -37,6 +38,7 @@
     "gulp-sass": "^5.1.0",
     "html-webpack-plugin": "^5.5.3",
     "mini-css-extract-plugin": "^2.7.6",
+    "postcss": "^8.4.35",
     "postcss-loader": "^7.3.3",
     "prettier-loader": "^3.3.0",
     "react": "^18.2.0",
@@ -46,6 +48,7 @@
     "sass-loader": "^13.3.2",
     "source-map-loader": "^4.0.1",
     "style-loader": "^3.3.3",
+    "tailwindcss": "^3.4.1",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
