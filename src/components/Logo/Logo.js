@@ -4,7 +4,7 @@ export default function Logo() {
 return (
   <div className={styles.Logo}>
     <div>Watch</div>
-    <div>Brands</div>
+    <div>Department</div>
   </div>
 );
 }

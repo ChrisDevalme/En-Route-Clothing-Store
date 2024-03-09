@@ -8,7 +8,7 @@ export default function MenuList({ menuItems, handleAddToOrder }) {
       handleAddToOrder={handleAddToOrder}
       menuItem={item}
     />
-  );
+    );
   return (
     <main className={styles.MenuList}>
       {items}
